@@ -1,5 +1,7 @@
 # MappingJackson2HttpMessageConverter란 뭘까?
 
+[출처] http://yookeun.github.io/java/2014/11/21/spring-json/
+
 ajax 통신시 자동으로 json 처리
 
 ````javascript
@@ -22,7 +24,7 @@ $.ajax({
 }):
 ````
 
-만약 MappingJackson2HttpMessageConverter을 하지 않으면 
+만약 MappingJackson2HttpMessageConverter을 설정 하지 않으면 수동으로 변환 후 호출하면된다.
 
 ````javascript
 // JavaScript Code
@@ -46,6 +48,6 @@ $.ajax({
 }):
 ````
 
-[출처] http://yookeun.github.io/java/2014/11/21/spring-json/
+
 
 
