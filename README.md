@@ -49,5 +49,16 @@ $.ajax({
 ````
 
 
+jackson-core Dependency 추가
 
+xml 설정 like this..
+````xml
+	<annotation-driven>
+		<message-converters register-defaults="true">
+			<beans:bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
+				<beans:property name="supportedMediaTypes" value="text/plain;charset=utf-8" />
+			</beans:bean>
+		</message-converters>
+	</annotation-driven>
+````
 
