@@ -62,3 +62,30 @@ xml 설정 like this..
 	</annotation-driven>
 ````
 
+
+
+
+설명
+
+출처: http://victorydntmd.tistory.com/172 [victolee]
+
+**MessageConverter란?**
+
+HTTP 프로토콜에서 메시지는 문자열을 통해 전송 됩니다.
+
+MessageConvert는 HTTP 통신에서 일반 문자열이 아닌 XML 이나 JSON으로 통신하기 위해 사용됩니다.
+
+**JSON을 전달하는지 그 이유?**
+
+브라우저에서 XML을 조작하는 것은 JS인데 굳이 XML으로 전달하여 다시 JS로 파싱 할 필요가 없음을 깨닫게 되었습니다.
+
+그래서 JS 객체 형식으로 전달하는 JSON을 사용하게 되었죠.
+
+브라우저 내에 XMLHttpRequest라는 내장 브라우저가 존재하여 Ajax 통신이 가능한데, 
+
+XML로 데이터를 전송하는 것은 비효율적이므로 JSON으로 데이터를 주고 받는다
+
+
+
+
+
