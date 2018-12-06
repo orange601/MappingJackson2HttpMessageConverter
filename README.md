@@ -2,7 +2,7 @@
 
 [출처] http://yookeun.github.io/java/2014/11/21/spring-json/
 
-ajax 통신시 자동으로 json 처리
+ajax 통신시 spring이 자동으로 json 처리
 
 ````javascript
 var param = {
