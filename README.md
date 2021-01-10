@@ -1,4 +1,4 @@
-# MappingJackson2HttpMessageConverter란 뭘까?
+# MappingJackson2HttpMessageConverter
 
 [출처] http://yookeun.github.io/java/2014/11/21/spring-json/
 
